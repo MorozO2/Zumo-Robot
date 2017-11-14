@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cczlL0i6.s 			page 1
+ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\ccbIULtr.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cczlL0i6.s 			page 1
   40 0008 FBD0     		beq	.L2
   16:ZumoLibrary/IR.c **** }    
   41              		.loc 1 16 0
-ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cczlL0i6.s 			page 2
+ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\ccbIULtr.s 			page 2
 
 
   42 000a 08BD     		pop	{r3, pc}
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cczlL0i6.s 			page 1
   32:ZumoLibrary/IR.c **** * @return int
   33:ZumoLibrary/IR.c **** *   - returns count time
   34:ZumoLibrary/IR.c **** */
-ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cczlL0i6.s 			page 3
+ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\ccbIULtr.s 			page 3
 
 
   35:ZumoLibrary/IR.c **** int count_downtime()
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cczlL0i6.s 			page 1
   50:ZumoLibrary/IR.c **** */
   51:ZumoLibrary/IR.c **** int count_uptime()
   52:ZumoLibrary/IR.c **** {
-ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cczlL0i6.s 			page 4
+ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\ccbIULtr.s 			page 4
 
 
  119              		.loc 1 52 0
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cczlL0i6.s 			page 1
   68:ZumoLibrary/IR.c **** {
  157              		.loc 1 68 0
  158              		.cfi_startproc
-ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cczlL0i6.s 			page 5
+ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\ccbIULtr.s 			page 5
 
 
  159              		@ args = 0, pretend = 0, frame = 40
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cczlL0i6.s 			page 1
  197 002c 05D9     		bls	.L17
   85:ZumoLibrary/IR.c ****             bit[i]=1;
  198              		.loc 1 85 0
-ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cczlL0i6.s 			page 6
+ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\ccbIULtr.s 			page 6
 
 
  199 002e 0122     		movs	r2, #1
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cczlL0i6.s 			page 1
  235              	.L20:
   99:ZumoLibrary/IR.c ****         val |= bit[i+1] << i;
  236              		.loc 1 99 0 is_stmt 0 discriminator 1
-ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cczlL0i6.s 			page 7
+ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\ccbIULtr.s 			page 7
 
 
  237 0062 1F2B     		cmp	r3, #31
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cczlL0i6.s 			page 1
  288 0047 3F       		.byte	0x3f
  289 0048 4C000000 		.4byte	0x4c
  290 004c 02       		.uleb128 0x2
-ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cczlL0i6.s 			page 8
+ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\ccbIULtr.s 			page 8
 
 
  291 004d 04       		.byte	0x4
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cczlL0i6.s 			page 1
  345 00b4 02       		.uleb128 0x2
  346 00b5 08       		.byte	0x8
  347 00b6 04       		.byte	0x4
-ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cczlL0i6.s 			page 9
+ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\ccbIULtr.s 			page 9
 
 
  348 00b7 EC010000 		.4byte	.LASF17
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cczlL0i6.s 			page 1
  402 013e 01       		.uleb128 0x1
  403 013f 9C       		.byte	0x9c
  404 0140 5D010000 		.4byte	0x15d
-ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cczlL0i6.s 			page 10
+ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\ccbIULtr.s 			page 10
 
 
  405 0144 09       		.uleb128 0x9
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cczlL0i6.s 			page 1
  459 01c1 DA000000 		.4byte	0xda
  460 01c5 07       		.uleb128 0x7
  461 01c6 24000000 		.4byte	.LVL13
-ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cczlL0i6.s 			page 11
+ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\ccbIULtr.s 			page 11
 
 
  462 01ca F9000000 		.4byte	0xf9
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cczlL0i6.s 			page 1
  516 001b 0E       		.uleb128 0xe
  517 001c 00       		.byte	0
  518 001d 00       		.byte	0
-ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cczlL0i6.s 			page 12
+ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\ccbIULtr.s 			page 12
 
 
  519 001e 03       		.uleb128 0x3
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cczlL0i6.s 			page 1
  573 0054 9742     		.uleb128 0x2117
  574 0056 19       		.uleb128 0x19
  575 0057 01       		.uleb128 0x1
-ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cczlL0i6.s 			page 13
+ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\ccbIULtr.s 			page 13
 
 
  576 0058 13       		.uleb128 0x13
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cczlL0i6.s 			page 1
  630 0091 00       		.byte	0
  631 0092 03       		.uleb128 0x3
  632 0093 08       		.uleb128 0x8
-ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cczlL0i6.s 			page 14
+ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\ccbIULtr.s 			page 14
 
 
  633 0094 3A       		.uleb128 0x3a
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cczlL0i6.s 			page 1
  687 00ca 00       		.byte	0
  688 00cb 3F       		.uleb128 0x3f
  689 00cc 19       		.uleb128 0x19
-ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cczlL0i6.s 			page 15
+ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\ccbIULtr.s 			page 15
 
 
  690 00cd 03       		.uleb128 0x3
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cczlL0i6.s 			page 1
  744 005d 20000000 		.4byte	.LVL12
  745 0061 26000000 		.4byte	.LVL14
  746 0065 0200     		.2byte	0x2
-ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cczlL0i6.s 			page 16
+ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\ccbIULtr.s 			page 16
 
 
  747 0067 30       		.byte	0x30
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cczlL0i6.s 			page 1
  801              		.section	.debug_aranges,"",%progbits
  802 0000 3C000000 		.4byte	0x3c
  803 0004 0200     		.2byte	0x2
-ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cczlL0i6.s 			page 17
+ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\ccbIULtr.s 			page 17
 
 
  804 0006 00000000 		.4byte	.Ldebug_info0
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cczlL0i6.s 			page 1
  845      00
  846              	.LASF1:
  847 002b 756E7369 		.ascii	"unsigned char\000"
-ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cczlL0i6.s 			page 18
+ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\ccbIULtr.s 			page 18
 
 
  847      676E6564 
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cczlL0i6.s 			page 1
  868      4320342E 
  868      392E3320 
  868      32303135 
-ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cczlL0i6.s 			page 19
+ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\ccbIULtr.s 			page 19
 
 
  868      30333033 
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cczlL0i6.s 			page 1
  892 01e3 6C6F6E67 		.ascii	"long int\000"
  892      20696E74 
  892      00
-ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cczlL0i6.s 			page 20
+ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\ccbIULtr.s 			page 20
 
 
  893              	.LASF17:

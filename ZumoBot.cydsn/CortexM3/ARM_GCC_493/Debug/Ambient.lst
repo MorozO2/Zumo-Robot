@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\ccZsCURs.s 			page 1
+ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\ccULkAFX.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\ccZsCURs.s 			page 1
   38              		.cfi_def_cfa_offset 32
   39              		.cfi_offset 3, -32
   40              		.cfi_offset 4, -28
-ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\ccZsCURs.s 			page 2
+ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\ccULkAFX.s 			page 2
 
 
   41              		.cfi_offset 5, -24
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\ccZsCURs.s 			page 1
   90 004c D3E90023 		ldrd	r2, [r3]
   91 0050 FFF7FEFF 		bl	__aeabi_dmul
   92              	.LVL9:
-ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\ccZsCURs.s 			page 3
+ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\ccULkAFX.s 			page 3
 
 
   93 0054 0646     		mov	r6, r0
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\ccZsCURs.s 			page 1
  145 00b8 D3E90023 		ldrd	r2, [r3]
  146 00bc FFF7FEFF 		bl	__aeabi_dmul
  147              	.LVL18:
-ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\ccZsCURs.s 			page 4
+ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\ccULkAFX.s 			page 4
 
 
  148 00c0 0246     		mov	r2, r0
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\ccZsCURs.s 			page 1
  199 0120 2046     		mov	r0, r4
  200 0122 2946     		mov	r1, r5
  201 0124 22A3     		adr	r3, .L27+48
-ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\ccZsCURs.s 			page 5
+ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\ccULkAFX.s 			page 5
 
 
  202 0126 D3E90023 		ldrd	r2, [r3]
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\ccZsCURs.s 			page 1
  250              	.LVL37:
  251              	.L28:
  252              		.align	3
-ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\ccZsCURs.s 			page 6
+ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\ccULkAFX.s 			page 6
 
 
  253              	.L27:
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\ccZsCURs.s 			page 1
  307 0033 02       		.uleb128 0x2
  308 0034 04       		.byte	0x4
  309 0035 07       		.byte	0x7
-ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\ccZsCURs.s 			page 7
+ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\ccULkAFX.s 			page 7
 
 
  310 0036 0E000000 		.4byte	.LASF1
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\ccZsCURs.s 			page 1
  364 0099 00000000 		.4byte	.LFB0
  365 009d E4010000 		.4byte	.LFE0-.LFB0
  366 00a1 01       		.uleb128 0x1
-ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\ccZsCURs.s 			page 8
+ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\ccULkAFX.s 			page 8
 
 
  367 00a2 9C       		.byte	0x9c
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\ccZsCURs.s 			page 1
  421 0117 00       		.byte	0
  422 0118 00       		.byte	0
  423              		.section	.debug_abbrev,"",%progbits
-ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\ccZsCURs.s 			page 9
+ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\ccULkAFX.s 			page 9
 
 
  424              	.Ldebug_abbrev0:
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\ccZsCURs.s 			page 1
  478 0035 19       		.uleb128 0x19
  479 0036 49       		.uleb128 0x49
  480 0037 13       		.uleb128 0x13
-ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\ccZsCURs.s 			page 10
+ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\ccULkAFX.s 			page 10
 
 
  481 0038 11       		.uleb128 0x11
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\ccZsCURs.s 			page 1
  535 0073 02       		.uleb128 0x2
  536 0074 18       		.uleb128 0x18
  537 0075 9142     		.uleb128 0x2111
-ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\ccZsCURs.s 			page 11
+ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\ccULkAFX.s 			page 11
 
 
  538 0077 18       		.uleb128 0x18
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\ccZsCURs.s 			page 1
  592 0028 00000000 		.4byte	.LVL0
  593 002c 12000000 		.4byte	.LVL3
  594 0030 0600     		.2byte	0x6
-ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\ccZsCURs.s 			page 12
+ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\ccULkAFX.s 			page 12
 
 
  595 0032 52       		.byte	0x52
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\ccZsCURs.s 			page 1
  649 00a3 08       		.uleb128 0x8
  650 00a4 00000000 		.4byte	0
  651 00a8 00000000 		.4byte	0
-ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\ccZsCURs.s 			page 13
+ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\ccULkAFX.s 			page 13
 
 
  652 00ac 1C010000 		.4byte	.LVL26
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\ccZsCURs.s 			page 1
  706 0120 00010000 		.4byte	.LVL24
  707 0124 0600     		.2byte	0x6
  708 0126 54       		.byte	0x54
-ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\ccZsCURs.s 			page 14
+ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\ccULkAFX.s 			page 14
 
 
  709 0127 93       		.byte	0x93
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\ccZsCURs.s 			page 1
  756      7400
  757              	.LASF1:
  758 000e 756E7369 		.ascii	"unsigned int\000"
-ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\ccZsCURs.s 			page 15
+ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\ccULkAFX.s 			page 15
 
 
  758      676E6564 
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\ccZsCURs.s 			page 1
  780 0106 6C6F6E67 		.ascii	"long int\000"
  780      20696E74 
  780      00
-ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\ccZsCURs.s 			page 16
+ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\ccULkAFX.s 			page 16
 
 
  781              	.LASF17:

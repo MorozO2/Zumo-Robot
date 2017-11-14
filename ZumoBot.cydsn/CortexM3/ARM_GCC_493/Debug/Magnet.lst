@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cc08kd3d.s 			page 1
+ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cch7J0XE.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cc08kd3d.s 			page 1
   37 0002 FFF7FEFF 		bl	atan2
   38              	.LVL1:
   19:ZumoLibrary/Magnet.c ****     
-ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cc08kd3d.s 			page 2
+ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cch7J0XE.s 			page 2
 
 
   20:ZumoLibrary/Magnet.c ****     if(heading < 0)
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cc08kd3d.s 			page 1
   87 0043 07       		.byte	0x7
   88 0044 53000000 		.4byte	.LASF4
   89 0048 03       		.uleb128 0x3
-ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cc08kd3d.s 			page 3
+ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cch7J0XE.s 			page 3
 
 
   90 0049 82010000 		.4byte	.LASF10
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cc08kd3d.s 			page 1
  144 00b0 06       		.uleb128 0x6
  145 00b1 7A010000 		.4byte	.LASF22
  146 00b5 01       		.byte	0x1
-ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cc08kd3d.s 			page 4
+ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cch7J0XE.s 			page 4
 
 
  147 00b6 0F       		.byte	0xf
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cc08kd3d.s 			page 1
  201 0116 25       		.uleb128 0x25
  202 0117 00       		.byte	0
  203 0118 0B       		.uleb128 0xb
-ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cc08kd3d.s 			page 5
+ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cch7J0XE.s 			page 5
 
 
  204 0119 0C000000 		.4byte	.LVL2
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cc08kd3d.s 			page 1
  258 0010 17       		.uleb128 0x17
  259 0011 00       		.byte	0
  260 0012 00       		.byte	0
-ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cc08kd3d.s 			page 6
+ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cch7J0XE.s 			page 6
 
 
  261 0013 02       		.uleb128 0x2
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cc08kd3d.s 			page 1
  315 0049 0E       		.uleb128 0xe
  316 004a 3A       		.uleb128 0x3a
  317 004b 0B       		.uleb128 0xb
-ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cc08kd3d.s 			page 7
+ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cch7J0XE.s 			page 7
 
 
  318 004c 3B       		.uleb128 0x3b
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cc08kd3d.s 			page 1
  372 0085 00       		.byte	0
  373 0086 0A       		.uleb128 0xa
  374 0087 8A8201   		.uleb128 0x410a
-ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cc08kd3d.s 			page 8
+ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cch7J0XE.s 			page 8
 
 
  375 008a 00       		.byte	0
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cc08kd3d.s 			page 1
  429 00c3 13       		.uleb128 0x13
  430 00c4 3C       		.uleb128 0x3c
  431 00c5 19       		.uleb128 0x19
-ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cc08kd3d.s 			page 9
+ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cch7J0XE.s 			page 9
 
 
  432 00c6 01       		.uleb128 0x1
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cc08kd3d.s 			page 1
  486 002c 05000000 		.4byte	.LVL1-1
  487 0030 0600     		.2byte	0x6
  488 0032 52       		.byte	0x52
-ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cc08kd3d.s 			page 10
+ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cch7J0XE.s 			page 10
 
 
  489 0033 93       		.byte	0x93
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cc08kd3d.s 			page 1
  532              	.LASF25:
  533 0022 43794465 		.ascii	"CyDelay\000"
  533      6C617900 
-ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cc08kd3d.s 			page 11
+ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cch7J0XE.s 			page 11
 
 
  534              	.LASF6:
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cc08kd3d.s 			page 1
  552      20696E74 
  552      00
  553              	.LASF0:
-ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cc08kd3d.s 			page 12
+ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cch7J0XE.s 			page 12
 
 
  554 014e 646F7562 		.ascii	"double\000"

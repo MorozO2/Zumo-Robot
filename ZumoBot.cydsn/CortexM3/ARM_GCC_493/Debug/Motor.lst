@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cc8sMnSs.s 			page 1
+ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\ccjqX2tR.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cc8sMnSs.s 			page 1
   40              	.LFE63:
   41              		.size	motor_start, .-motor_start
   42              		.section	.text.motor_stop,"ax",%progbits
-ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cc8sMnSs.s 			page 2
+ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\ccjqX2tR.s 			page 2
 
 
   43              		.align	2
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cc8sMnSs.s 			page 1
   76              		@ frame_needed = 0, uses_anonymous_args = 0
   77              	.LVL2:
   78 0000 38B5     		push	{r3, r4, r5, lr}
-ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cc8sMnSs.s 			page 3
+ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\ccjqX2tR.s 			page 3
 
 
   79              		.cfi_def_cfa_offset 16
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cc8sMnSs.s 			page 1
   51:ZumoLibrary/Motor.c **** */
   52:ZumoLibrary/Motor.c **** void motor_turn(uint8 l_speed, uint8 r_speed, uint32 delay)
   53:ZumoLibrary/Motor.c **** {
-ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cc8sMnSs.s 			page 4
+ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\ccjqX2tR.s 			page 4
 
 
  119              		.loc 1 53 0
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cc8sMnSs.s 			page 1
  159              	.LVL13:
  160 0000 38B5     		push	{r3, r4, r5, lr}
  161              		.cfi_def_cfa_offset 16
-ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cc8sMnSs.s 			page 5
+ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\ccjqX2tR.s 			page 5
 
 
  162              		.cfi_offset 3, -16
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cc8sMnSs.s 			page 1
  211 0010 01       		.byte	0x1
  212 0011 F9000000 		.4byte	.LASF33
  213 0015 B0000000 		.4byte	.LASF34
-ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cc8sMnSs.s 			page 6
+ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\ccjqX2tR.s 			page 6
 
 
  214 0019 00000000 		.4byte	.Ldebug_ranges0+0
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cc8sMnSs.s 			page 1
  268 0082 35000000 		.4byte	.LASF11
  269 0086 04       		.byte	0x4
  270 0087 9201     		.2byte	0x192
-ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cc8sMnSs.s 			page 7
+ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\ccjqX2tR.s 			page 7
 
 
  271 0089 2C000000 		.4byte	0x2c
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cc8sMnSs.s 			page 1
  325 0102 01       		.uleb128 0x1
  326 0103 9C       		.byte	0x9c
  327 0104 85010000 		.4byte	0x185
-ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cc8sMnSs.s 			page 8
+ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\ccjqX2tR.s 			page 8
 
 
  328 0108 09       		.uleb128 0x9
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cc8sMnSs.s 			page 1
  382 0174 0C       		.uleb128 0xc
  383 0175 24000000 		.4byte	.LVL8
  384 0179 EA020000 		.4byte	0x2ea
-ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cc8sMnSs.s 			page 9
+ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\ccjqX2tR.s 			page 9
 
 
  385 017d 0B       		.uleb128 0xb
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cc8sMnSs.s 			page 1
  439 01ef 50       		.byte	0x50
  440 01f0 02       		.uleb128 0x2
  441 01f1 74       		.byte	0x74
-ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cc8sMnSs.s 			page 10
+ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\ccjqX2tR.s 			page 10
 
 
  442 01f2 00       		.sleb128 0
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cc8sMnSs.s 			page 1
  496 0261 00       		.byte	0
  497 0262 0A       		.uleb128 0xa
  498 0263 1E000000 		.4byte	.LVL18
-ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cc8sMnSs.s 			page 11
+ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\ccjqX2tR.s 			page 11
 
 
  499 0267 D9020000 		.4byte	0x2d9
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cc8sMnSs.s 			page 1
  553 02ce C7       		.byte	0xc7
  554 02cf D9020000 		.4byte	0x2d9
  555 02d3 11       		.uleb128 0x11
-ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cc8sMnSs.s 			page 12
+ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\ccjqX2tR.s 			page 12
 
 
  556 02d4 81000000 		.4byte	0x81
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cc8sMnSs.s 			page 1
  610 0022 0E       		.uleb128 0xe
  611 0023 3A       		.uleb128 0x3a
  612 0024 0B       		.uleb128 0xb
-ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cc8sMnSs.s 			page 13
+ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\ccjqX2tR.s 			page 13
 
 
  613 0025 3B       		.uleb128 0x3b
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cc8sMnSs.s 			page 1
  667 005c 898201   		.uleb128 0x4109
  668 005f 00       		.byte	0
  669 0060 11       		.uleb128 0x11
-ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cc8sMnSs.s 			page 14
+ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\ccjqX2tR.s 			page 14
 
 
  670 0061 01       		.uleb128 0x1
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cc8sMnSs.s 			page 1
  724 009a 00       		.byte	0
  725 009b 00       		.byte	0
  726 009c 0B       		.uleb128 0xb
-ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cc8sMnSs.s 			page 15
+ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\ccjqX2tR.s 			page 15
 
 
  727 009d 8A8201   		.uleb128 0x410a
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cc8sMnSs.s 			page 1
  781 00d8 3C       		.uleb128 0x3c
  782 00d9 19       		.uleb128 0x19
  783 00da 00       		.byte	0
-ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cc8sMnSs.s 			page 16
+ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\ccjqX2tR.s 			page 16
 
 
  784 00db 00       		.byte	0
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cc8sMnSs.s 			page 1
  838 0013 0400     		.2byte	0x4
  839 0015 F3       		.byte	0xf3
  840 0016 01       		.uleb128 0x1
-ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cc8sMnSs.s 			page 17
+ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\ccjqX2tR.s 			page 17
 
 
  841 0017 50       		.byte	0x50
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cc8sMnSs.s 			page 1
  895              	.LLST5:
  896 009f 00000000 		.4byte	.LVL13
  897 00a3 08000000 		.4byte	.LVL14
-ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cc8sMnSs.s 			page 18
+ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\ccjqX2tR.s 			page 18
 
 
  898 00a7 0100     		.2byte	0x1
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cc8sMnSs.s 			page 1
  952 0028 00000000 		.4byte	0
  953 002c 00000000 		.4byte	0
  954              		.section	.debug_line,"",%progbits
-ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cc8sMnSs.s 			page 19
+ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\ccjqX2tR.s 			page 19
 
 
  955              	.Ldebug_line0:
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cc8sMnSs.s 			page 1
  980      4C656674 
  980      5F577269 
  980      746500
-ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cc8sMnSs.s 			page 20
+ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\ccjqX2tR.s 			page 20
 
 
  981              	.LASF35:
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cc8sMnSs.s 			page 1
  1001      676E6564 
  1001      20696E74 
  1001      00
-ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cc8sMnSs.s 			page 21
+ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\ccjqX2tR.s 			page 21
 
 
  1002              	.LASF23:
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cc8sMnSs.s 			page 1
  1027      20696E74 
  1027      00
  1028              	.LASF22:
-ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\cc8sMnSs.s 			page 22
+ARM GAS  C:\Users\Vladimir\AppData\Local\Temp\ccjqX2tR.s 			page 22
 
 
  1029 0246 6D6F746F 		.ascii	"motor_turn\000"

@@ -210,7 +210,7 @@ int main()
 //*/
 
 
-/*//reflectance//
+///reflectance//
 int main()
 {
     struct sensors_ ref;
@@ -221,22 +221,101 @@ int main()
     sensor_isr_StartEx(sensor_isr_handler);
     
     reflectance_start();
-
+    
     IR_led_Write(1);
-    for(;;)
-    {
+    
+    
+    
+    for(;;){
         reflectance_read(&ref);
         printf("%d %d %d %d \r\n", ref.l3, ref.l1, ref.r1, ref.r3);       //print out each period of reflectance sensors
         reflectance_digital(&dig);      //print out 0 or 1 according to results of reflectance period
         printf("%d %d %d %d \r\n", dig.l3, dig.l1, dig.r1, dig.r3);        //print out 0 or 1 according to results of reflectance period
         
-        CyDelay(500);
-    }
-}   
-//*/
+        CyDelay(50);
+    
+        motor_start();
+        
+        
+        if(dig.l1 == 0 && dig.r1 == 0){
+            
+        motor_forward(100,40); //if one of the middle sensors return "black", motor moves forward
+        }
+        
 
-  //motor//
-int main()
+        else if(dig.r1 == 0 && dig.l1 == 1){
+        motor_turn(80,30,40);
+        }
+        
+        else if(dig.r1 == 1 && dig.l1 == 0){
+        motor_turn(30,80,40);
+        }
+        
+        
+         if(dig.l3 == 1 && dig.r3 == 1){
+        motor_forward(100, 40);
+        }
+        
+        else if(dig.l3 == 0){ //Turns left if outer left sensr returns "black"
+        motor_turn(30,80,40);
+        }
+        
+        else if(dig.r3 == 0){ //turns right if outer right sensor returns "black" 
+        motor_turn(80,30,40);
+        }
+        
+        if (dig.l3 == 1 && dig.r3 == 1 && dig.l1 == 1 && dig.r1 == 1){
+        motor_backward(60,50);
+        }
+        
+        
+        
+    }
+    
+   
+        
+        
+        
+    
+        /*motor_forward(100,1000);*/
+    /*motor_turn(100,1000,400);     */// turn left   
+    /*motor_backward(100,1000);*/     // movinb backward
+    /*motor_turn(200,100,400);*/     // turn right
+    
+    
+
+    
+   
+//
+
+  
+/*int main()
+{
+    CyGlobalIntEnable; 
+    UART_1_Start();
+
+       
+    
+        motor_start();              // motor start
+        motor_forward(100,1000);     // moving forward 
+        motor_turn(1000,100,400);     // turn right
+        motor_turn(100,1000,400);     // turn left   
+        motor_backward(100,1000);     // movinb backward
+        motor_stop();               // motor stop
+        
+    
+   
+
+    
+    for(;;)
+    {
+
+    }
+}*/
+
+    //motor//
+    //pilot mode//
+/*int main()
 {
     CyGlobalIntEnable; 
     UART_1_Start();
@@ -246,49 +325,51 @@ int main()
     
     
     
-         printf("Enter number: \n");
-         scanf("%d", &start);
-    
+         
         
     do{
    
-    if(start == 1){
+        printf("Enter number(1=forward, 2=tankleft, 3=tankright, 4=back): \n");
+         scanf("%d", &start);
     
-    motor_start();              // motor start
-    motor_forward(100,500);     // moving forward
-    motor_stop();
-    start = 0;
-    }
+        
+        
+        if(start == 1){
     
-    if(start == 2){
-    motor_start(); 
-    tank_turnR(80,80,500);     // turn right
+        motor_start();              // motor start
+        motor_forward(500,200);     // moving forward
+        motor_stop();
+        start = 0;
+        }
     
-    motor_stop();
-    start = 0;
-    }
-    if(start == 3){
+        if(start == 2){
+        motor_start(); 
+        tank_turnR(200,200,100);     // turn right
     
-    motor_start();
-    tank_turnL(80,80,500);     // turn left
-    motor_stop();
-    start = 0;
-    }
+        motor_stop();
+        start = 0;
+        }
+    
+        if(start == 3){
+    
+        motor_start();
+        tank_turnL(200,200,100);     // turn left
+        motor_stop();
+        start = 0;
+        }
+    
     if(start == 4){
     
     motor_start(); 
-    motor_backward(100,500);     // movinb backward
+    motor_backward(500,200);     // movinb backward
     motor_stop();
     start = 0;
     }
     
-    if(start == 9){
-    
-    motor_start(); 
+    if(start == 9) {
     motor_backward(0,1000);     // movinb backward
     motor_stop();
-    start = 
-    0;
+    start = 0;
     }
     
     if(start == 8){
@@ -299,10 +380,11 @@ int main()
     start = 0;
     }
     
-    else{
-    motor_stop();               // motor stop
-    start = 0;
-    }
+        else{
+        motor_stop();               // motor stop
+        start = 0;
+        }
+    
     
     }while(start == 0);
     
@@ -312,8 +394,8 @@ int main()
     {
 
     }
-}
-
+}*/
+/*
 void tank_turnR(uint8 l_speed, uint8 r_speed, uint32 delay)
 {
     MotorDirLeft_Write(1);      // set LeftMotor backward mode
@@ -330,8 +412,8 @@ void tank_turnL(uint8 l_speed, uint8 r_speed, uint32 delay)
     PWM_WriteCompare1(l_speed); 
     PWM_WriteCompare2(r_speed); 
     CyDelay(delay);
-}
-//*/
+}*/
+//
     
 
 /*//gyroscope//
@@ -467,5 +549,6 @@ int _read (int file, char *ptr, int count)
         }
     }
     return chs;
+}
 }
 /* [] END OF FILE */
